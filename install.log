@@ -1,0 +1,322 @@
+--- Перевірка середовища: Sun Apr 19 19:10:56 CEST 2026 ---
+[✅] docker вже встановлено: Docker version 28.1.1, build 4eba377
+[✅] Docker Compose доступний.
+[🚀] Встановлення Python 3.9...
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:f41c72b891c40623f9d5cd2135f58a1b8a5c014ae04149888289409316276c72
+##O=#    #                                                                                                                                                 #=#=- #    #                                                                                                                                                                                                                                                                                                       0.1%#########                                                                                                                                               6.5%########################                                                                                                                               16.3%#####################################                                                                                                                  25.3%##########################################################                                                                                             39.1%#################################################################################                                                                      54.5%#################################################################################################                                                      65.4%########################################################################################################################                               80.8%##################################################################################################################################################### 100.0%
+==> Pouring portable-ruby-4.0.2_1.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 3 taps (mongodb/brew, homebrew/core and homebrew/cask).
+==> New Formulae
+actions-up: Tool to update GitHub Actions to latest versions with SHA pinning
+agent-browser: Browser automation CLI for AI agents
+aoe: Terminal session manager for AI coding agents
+apache-arrow-adbc: Cross-language, Arrow-native database access
+apache-arrow-adbc-glib: GLib bindings for Apache Arrow ADBC
+apache-serf: High-performance asynchronous HTTP client library
+apfel: Apple Intelligence from the command-line, with OpenAi-compatible API server
+apkeep: Command-line tool for downloading APK files from various sources
+arcadedb: Multi-Model DBMS: Graph, Document, Key/Value, Search, Time Series, Vector
+asc: Fast, lightweight CLI for App Store Connect
+async-profiler: Sampling CPU & HEAP profiler for Java using AsyncGetCallTrace + perf_events
+atuin-server: Sync server for atuin - Improved shell history for zsh, bash, fish and nushell
+bagel: CLI to audit posture and evaluate compromise blast radius
+bazel@8: Google's own build tool
+betterleaks: Secrets scanner built for configurability and speed
+bitwuzla: SMT solver for bit-vectors, floating-points, arrays and uninterpreted functions
+buildkitd: Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit (Daemon)
+cc-connect: Bridges local AI coding agents to messaging platforms
+checkpwn: Check Have I Been Pwned and see if it's time for you to change passwords
+cline: AI-powered coding agent for complex work
+clock-rs: Modern, digital clock that effortlessly runs in your terminal
+cloudflare-speed-cli: Cloudflare-based speed test with optional TUI
+cni-plugins: Container Network Interface plugins
+containerd: Open and reliable container runtime
+cozyhr: Cozy wrapper around Helm and Flux CD for local development
+crip: Tool to extract server certificates
+ctx7: Manage AI coding skills and documentation context
+cwalk: Cross-platform path library for C/C++
+cyan: iOS app injector and modifier
+dart-sass: Reference implementation of Sass, written in Dart
+dartaotruntime: Command-line tool for running AOT-compiled snapshots of Dart code
+datadog-static-analyzer: Static analysis tool for code quality and security
+difi: Pixel-perfect terminal diff viewer
+dispenso: High-performance C++ library for parallel programming
+dlpack: Common in-memory tensor structure
+docker-engine: Pack, ship and run any application as a lightweight container (Daemon)
+dtop: Terminal dashboard for Docker monitoring across multiple hosts
+et: Remote terminal with IP roaming
+expert: Official Elixir Language Server Protocol implementation
+ffc.h: Single-header C99 accelerated float/double parsing
+flowrs: TUI application for Apache Airflow
+fracturedjson: JSON formatter that produces highly readable but fairly compact output
+fvm: Manage Flutter SDK versions per project
+garden: Grow and cultivate collections of Git trees
+ggml: Tensor library for machine learning
+git-flow-next: Modern implementation of the Git-flow branching model
+git-format-staged: Git command to transform staged files using a formatting command
+git-pkgs: Track package dependencies across git history
+gittype: CLI code-typing game that turns your source code into typing challenges
+go@1.25: Open source programming language to build simple/reliable/efficient software
+googleworkspace-cli: CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more
+graalvm: JDK distribution with Graal compiler and Native Image
+grafanactl: CLI to interact with Grafana
+happy-coder: CLI for operating AI coding agents from mobile devices
+ic-wasm: CLI tool for performing Wasm transformations specific to ICP canisters
+icestorm: Tools for analyzing and creating Lattice iCE40 FPGA bitstream files
+icp-cli: Development tool for building and deploying canisters on ICP
+ipapatch: CLI tool to patch iOS IPA files and their plugins
+ironclaw: Security-first personal AI assistant with WASM sandbox channels
+jsongrep: Query tool for JSON, YAML, TOML, and other structured formats
+kaf: Modern CLI for Apache Kafka
+kubectl-tree: Kubectl plugin to browse Kubernetes object hierarchies as a tree
+landrun: Lightweight, secure sandbox for running Linux processes using Landlock LSM
+lazycut: Terminal-based video trimming TUI
+letta-code: Memory-first coding agent
+libheif-plugins: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+libkiwix: Common code base for all Kiwix ports
+libnpupnp: C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
+libpathrs: C-friendly API to make path resolution safer on Linux
+libupnpp: C++ wrapper for libnpupnp
+lief: Library to Instrument Executable Formats
+likec4: Architecture modeling tool with live diagrams from code
+linux-headers@6.8: Header files of the Linux kernel
+livereload: Local web server in Python
+lld@21: LLVM Project Linker
+llmfit: Find what models run on your hardware
+llvm@21: Next-gen compiler infrastructure
+ls-hpack: HTTP/2 HPACK header compression library
+lua@5.4: Powerful, lightweight programming language
+merve: C++ lexer for extracting named exports from CommonJS modules
+micasa: TUI for tracking home projects, maintenance schedules, appliances and quotes
+miniaudio: Audio playback and capture library
+mipsel-linux-gnu-binutils: GNU Binutils for mipsel-linux-gnu cross development
+mkbrr: Is a tool to create, modify and inspect torrent files. Fast
+models: Fast TUI and CLI for browsing AI models, benchmarks, and coding agents
+mp4ff: Tools for parsing and manipulating MP4/ISOBMFF files
+nbytes: Library of byte handling functions extracted from Node.js core
+nextpnr-ice40: Portable FPGA place and route tool for Lattice iCE40
+nfd2nfc: Convert filesystem entry names from NFD to NFC for cross-platform compatibility
+nomad-pack: Templating and packaging tool used with HashiCorp Nomad
+nono: Capability-based sandbox shell for AI agents with OS-enforced isolation
+nullclaw: Tiny autonomous AI assistant infrastructure written in Zig
+nuls: NuShell-inspired ls with colorful table output
+odiff: Very fast SIMD-first image comparison library (with nodejs API)
+odinfmt: Formatter for The Odin Programming Language
+oh-my-agent: Portable multi-agent harness for .agents-based skills and workflows
+ols: Language server for The Odin Programming Language
+openspec: Spec-driven development (SDD) for AI coding assistants
+openssl@4: Cryptography and SSL/TLS Toolkit
+opentimestamps-client: Create and verify OpenTimestamps proofs
+overturemaps: Python tools for interacting with Overture Maps data
+paneru: Sliding, tiling window manager for MacOS
+pay: HTTP client that automatically handles 402 Payment Required
+pcapmirror: Tool for capturing network traffic on remote host using TZSP or ERSPAN
+pet: Simple command-line snippet manager
+pi-coding-agent: AI agent toolkit
+picoclaw: Ultra-efficient personal AI assistant in Go
+picoruby: Smallest Ruby implementation for microcontrollers
+pipewire-gstreamer: GStreamer Plugin for PipeWire
+playwright-cli: CLI for Playwright: record/generate code, inspect selectors, take screenshots
+pocket-id: Open-source identity provider for secure user authentication
+portless: Replace port numbers with stable, named local URLs for humans and agents
+powershell: Command-line shell and scripting language
+protobuf@33: Protocol buffers (Google's data interchange format)
+proxelar: Man-in-the-Middle proxy for HTTP/HTTPS traffic
+pyperformance: Python benchmark suite
+qtcanvaspainter: Accelerated 2D painting solution for Qt Quick and QRhi-based render targets
+qttasktree: General purpose library for asynchronous task execution
+resticprofile: Configuration profiles manager and scheduler for restic backup
+rootlesskit: Linux-native "fake root" for implementing rootless containers
+rpiboot: Raspberry Pi USB boot tool for Compute Modules
+rtk: CLI proxy to minimize LLM token consumption
+run-kit: Universal multi-language runner and smart REPL
+runc: CLI tool for spawning and running containers according to the OCI specification
+rustledger: Fast, pure Rust implementation of Beancount double-entry accounting
+rustpython: Python Interpreter written in Rust
+rustypaste: Minimal file upload/pastebin service
+rustypaste-cli: CLI tool for rustypaste
+rvvm: RISC-V Virtual Machine
+sarif-fmt: Pretty print SARIF files to easy human readable output
+scala-cli: Scala language runner and build tool
+sem-cli: Semantic version control CLI with entity-level diffs and blame
+shadcn: CLI for adding components to your project
+sheets: Terminal based spreadsheet tool
+skills: Open agent skills ecosystem
+skillshare: Sync skills across AI CLI tools
+skip: Tool for building Swift apps for Android
+spicedb: Open Source, Google Zanzibar-inspired database
+sss-cli: Shamir secret share command-line interface
+static-web-apps-cli: SWA CLI serves as a local development tool for Azure Static Web Apps
+structurizr: Software architecture models as code
+summarize: Multi-modal AI tool to extract and summarize content
+t2sz: Compress a file into a seekable zstd with per-file seeking for tar archives
+termframe: Terminal output SVG screenshot tool
+termusic: Music Player TUI written in Rust
+tini: Tiny but valid init for containers
+topicctl: Declarative Kafka topic management
+torf-cli: CLI tool for creating, reading and editing torrent files
+transifex-cli: Transifex command-line client
+tree-sitter-go: Go grammar for tree-sitter
+tree-sitter-python: Python grammar for tree-sitter
+tree-sitter-ruby: Ruby grammar for tree-sitter
+try-rs: Temporary workspace manager for fast experimentation in the terminal
+tsshd: UDP SSH server for trzsz-ssh (tssh) with roaming support
+tuckr: Super powered replacement for GNU Stow
+umoci: Reference OCI implementation for creating, modifying and inspecting images
+upterm: Instant terminal sharing
+vapoursynth-bestsource: Audio/video source and FFmpeg wrapper
+vapoursynth-bm3d: BM3D denoising filter for VapourSynth
+vapoursynth-descale: VapourSynth plugin to undo upscaling
+vuls: Agentless Vulnerability Scanner for Linux/FreeBSD
+weave: Entity-level semantic merge driver for Git using tree-sitter
+whodb-cli: Database management CLI with TUI interface, MCP server support, AI, and more
+wireplumber: Session / policy manager implementation for PipeWire
+wmbusmeters: Read wired or wireless mbus protocol to acquire utility meter readings
+x-cli: Command-line power tool for Twitter
+xcursorgen: Create an X cursor file from a collection of PNG images
+yap: On-device audio transcription using Speech.framework
+yelp-xsl: Document transformations from Yelp
+zeptoclaw: Lightweight personal AI gateway with layered safety controls
+zeroclaw: Rust-first autonomous agent runtime
+zig@0.15: Programming language designed for robustness, optimality, and clarity
+zsign: Cross-platform codesigning tool for iOS apps
+zvbi: Vertical Blanking Interval (VBI) decoding library
+zxc: High-performance asymmetric lossless compression library
+zxing-cpp: Multi-format barcode image processing library written in C++
+zycore-c: Zyan Core Library for C
+
+You have 40 outdated formulae installed.
+
+Warning: python@3.9 has been deprecated because it is deprecated upstream! It will be disabled on 2026-10-15.
+==> Fetching downloads for: python@3.9
+✔︎ Bottle Manifest python@3.9 (3.9.25)
+✔︎ Bottle Manifest sqlite (3.53.0)
+✔︎ Bottle Manifest gdbm (1.26)
+✔︎ Bottle Manifest xz (5.8.3)
+✔︎ Bottle gdbm (1.26)
+✔︎ Bottle xz (5.8.3)
+✔︎ Bottle sqlite (3.53.0)
+✔︎ Bottle python@3.9 (3.9.25)
+==> Installing dependencies for python@3.9: gdbm, sqlite and xz
+==> Installing python@3.9 dependency: gdbm
+==> Pouring gdbm--1.26.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gdbm/1.26: 25 files, 1.1MB
+==> Installing python@3.9 dependency: sqlite
+==> Pouring sqlite--3.53.0.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.53.0: 13 files, 5.3MB
+==> Installing python@3.9 dependency: xz
+==> Pouring xz--5.8.3.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.8.3: 96 files, 2.7MB
+==> Installing python@3.9
+==> Pouring python@3.9--3.9.25.arm64_sonoma.bottle.1.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.9/3.9.25/bin/python3.9 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.9/3.9.25/bin/python3.9 -Im pip install -v --no[0m
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.9
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.9`, `python3.9-config`, `pip3.9` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.9/libexec/bin
+
+You can install Python packages with
+  pip3.9 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.9/site-packages
+
+`idle3.9` requires tkinter, which is available separately:
+  brew install python-tk@3.9
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.9/3.9.25: 3,039 files, 59.5MB
+==> Running `brew cleanup python@3.9`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.49.2... (13 files, 5.0MB)
+Removing: /opt/homebrew/Cellar/sqlite/3.50.1... (13 files, 5MB)
+Removing: /opt/homebrew/Cellar/xz/5.8.1... (96 files, 2.6MB)
+Removing: /Users/margosha/Library/Caches/Homebrew/bootsnap/af1302dbf92394f6844c6728933903dc247921c87371c88c2f492e443b72b436... (649 files, 5.7MB)
+Removing: /Users/margosha/Library/Logs/Homebrew/postgresql@14... (1.3KB)
+Removing: /Users/margosha/Library/Logs/Homebrew/readline... (64B)
+Removing: /Users/margosha/Library/Logs/Homebrew/krb5... (64B)
+Removing: /Users/margosha/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/margosha/Library/Logs/Homebrew/icu4c@78... (64B)
+==> Caveats
+==> python@3.9
+Python is installed as
+  /opt/homebrew/bin/python3.9
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.9`, `python3.9-config`, `pip3.9` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.9/libexec/bin
+
+You can install Python packages with
+  pip3.9 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.9/site-packages
+
+`idle3.9` requires tkinter, which is available separately:
+  brew install python-tk@3.9
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+See: https://docs.brew.sh/Homebrew-and-Python
+[✅] pip3 вже встановлено: pip 24.3.1 from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pip (python 3.12)
+[🚀] Перевірка Python-бібліотек...
+Collecting torch
+  Downloading torch-2.11.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (29 kB)
+Collecting torchvision
+  Downloading torchvision-0.26.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (5.5 kB)
+Requirement already satisfied: pillow in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (10.4.0)
+Collecting Django
+  Downloading django-6.0.4-py3-none-any.whl.metadata (3.9 kB)
+Collecting filelock (from torch)
+  Downloading filelock-3.29.0-py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: typing-extensions>=4.10.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from torch) (4.12.2)
+Requirement already satisfied: setuptools<82 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from torch) (75.8.0)
+Collecting sympy>=1.13.3 (from torch)
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: networkx>=2.5.1 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from torch) (3.3)
+Requirement already satisfied: jinja2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from torch) (3.1.5)
+Requirement already satisfied: fsspec>=0.8.5 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from torch) (2024.12.0)
+Requirement already satisfied: numpy in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from torchvision) (2.0.1)
+Collecting asgiref>=3.9.1 (from Django)
+  Downloading asgiref-3.11.1-py3-none-any.whl.metadata (9.3 kB)
+Requirement already satisfied: sqlparse>=0.5.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from Django) (0.5.3)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from jinja2->torch) (3.0.2)
+Downloading torch-2.11.0-cp312-cp312-macosx_11_0_arm64.whl (80.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.6/80.6 MB 12.3 MB/s eta 0:00:00
+Downloading torchvision-0.26.0-cp312-cp312-macosx_11_0_arm64.whl (1.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 12.6 MB/s eta 0:00:00
+Downloading django-6.0.4-py3-none-any.whl (8.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.4/8.4 MB 13.8 MB/s eta 0:00:00
+Downloading asgiref-3.11.1-py3-none-any.whl (24 kB)
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 12.9 MB/s eta 0:00:00
+Downloading filelock-3.29.0-py3-none-any.whl (39 kB)
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 20.7 MB/s eta 0:00:00
+Installing collected packages: mpmath, sympy, filelock, asgiref, torch, Django, torchvision
+  Attempting uninstall: asgiref
+    Found existing installation: asgiref 3.8.1
+    Uninstalling asgiref-3.8.1:
+      Successfully uninstalled asgiref-3.8.1
+Successfully installed Django-6.0.4 asgiref-3.11.1 filelock-3.29.0 mpmath-1.3.0 sympy-1.14.0 torch-2.11.0 torchvision-0.26.0
+
+[notice] A new release of pip is available: 24.3.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+--- Встановлення завершено: Sun Apr 19 19:11:48 CEST 2026 ---

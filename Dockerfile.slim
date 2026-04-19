@@ -1,0 +1,19 @@
+# Етап 1: Побудова (Builder) 
+FROM python:3.9-slim AS builder
+WORKDIR /app
+RUN pip install --user --no-cache-dir torch torchvision pillow
+
+# Етап 2: Фінальний образ (Runtime) 
+FROM python:3.9-slim
+WORKDIR /app
+
+# Копіюємо тільки встановлені бібліотеки з першого етапу
+COPY --from=builder /root/.local /root/.local
+# Копіюємо тільки скрипт та модель 
+COPY model.pt .
+COPY inference.py .
+
+# Оновлюємо PATH для Python бібліотек
+ENV PATH=/root/.local/bin:$PATH
+
+ENTRYPOINT ["python", "inference.py"]

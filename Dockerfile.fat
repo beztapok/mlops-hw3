@@ -1,0 +1,12 @@
+
+FROM python:3.9
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir torch torchvision pillow
+
+COPY model.pt .
+COPY inference.py .
+
+# Команда для запуску (як приклад беремо test.jpg)
+ENTRYPOINT ["python", "inference.py"]
